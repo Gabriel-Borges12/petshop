@@ -38,6 +38,23 @@ $conn->close();
     <title>Consultar Clientes</title>
 </head>
 <body>
-<button type="button" class="btn-volta"><a href="../index.php">Voltar</a></button>
+<header>
+    <nav>
+      <div class="nav-loty">
+        <img src="../img/logo_petshop.png" alt="Logo Petshop" id="nav-logo">
+        <span id="nav-title">Pet Tricolor</span>
+      </div>
+      <div class="nav-wrap">
+        <input type="text" name="search-bar" id="search-bar">
+        <ul class="nav-list">
+          <li class="nav-link"><a href="./agendamento/consulta_agenda.php">Agendamentos</a></li>
+          <li class="nav-link"><a href="../animal/consulta_animal.php">Animais</a></li>
+          <li class="nav-link"><a href="../cliente/consulta_cliente.php">Clientes</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+<button type="button" class="btn-volta"><a href="index.php">Voltar</a></button>
 </body>
 </html>
