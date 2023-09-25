@@ -166,3 +166,127 @@ footer {
     width: 48px;
     height: 48px;
 }
+
+.conteudogeral {
+    flex-direction: column;
+    /* Altera a direção do flex para empilhar verticalmente */
+}
+
+.conteudo1,
+.conteudo2,
+.conteudo3,
+.social-icons {
+    flex: none;
+    /* Impede que os elementos ocupem espaço igual no rodapé */
+    width: 100%;
+    /* Ocupa toda a largura disponível */
+    text-align: center;
+    /* Centraliza o texto */
+}
+
+.linksfooter li {
+    margin-left: 0;
+    /* Remove a margem para alinhar à esquerda */
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #B012CA;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.conteudogeral {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.conteudo1,
+.conteudo2,
+.conteudo3,
+.social-icons,
+.social-icon {
+    flex: 1;
+    margin: 10px;
+    color: #fff;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+
+.social-icon img {
+    width: 100%;
+    height: auto;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.linksfooter {
+    display: block;
+    justify-content: justify;
+    color: #fff;
+}
+
+.linksfooter li {
+    text-align: justify;
+    margin-left: 127px;
+}
+
+.linksfooter:hover {
+    color: white;
+
+}
+
+.linkemail {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.linkemail:hover {
+    color: darkgray;
+}
+
+.linksimportantes {
+    color: #fff;
+    text-decoration: none;
+    justify-content: justify;
+
+}
+
+.linksimportantes:hover {
+    color: darkgray;
+
+}
