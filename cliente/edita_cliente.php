@@ -1,5 +1,5 @@
 <?php
-include '../includes/conexao.php';
+include '../conexao.php';
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
@@ -19,7 +19,7 @@ if (isset($_GET['id'])) {
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $nome = $_POST['nome'];
 
-    $sql = "UPDATE cliente SET cliente_nome = ? WHERE cliente_nome = cliente_cpf";
+    $sql = "UPDATE cliente SET cliente_nome = ? WHERE cliente_nome = '$cliente[cliente_nome]'";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("s", $nome);
 
@@ -43,6 +43,22 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 
 <body>
+    <header>
+        <nav>
+            <div class="nav-loty">
+                <img src="./img/logo_petshop.png" alt="Logo Petshop" id="nav-logo">
+                <span id="nav-title">Pet Tricolor</span>
+            </div>
+            <div class="nav-wrap">
+                <input type="text" name="search-bar" id="search-bar">
+                <ul class="nav-list">
+                    <li class="nav-link"><a href="./agendamento/consulta_agenda.php">Agendamentos</a></li>
+                    <li class="nav-link"><a href="./animal/consulta_animal.php">Animais</a></li>
+                    <li class="nav-link"><a href="./cliente/consulta_cliente.php">Clientes</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <h1>Editar Clientes</h1>
     <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
         <label for="nome">Nome:</label>

@@ -1,5 +1,5 @@
 <?php
-include '../includes/conexao.php';
+include '../conexao.php';
 
 $sql = "SELECT * FROM cliente";
 $resultado = $conn->query($sql);
@@ -38,6 +38,6 @@ $conn->close();
     <title>Consultar Clientes</title>
 </head>
 <body>
-<button type="button" class="btn-volta"><a href="index.php">Voltar</a></button>
+<button type="button" class="btn-volta"><a href="../index.php">Voltar</a></button>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <?php
-include '../includes/conexao.php';
+include '../conexao.php';
 
 $sql = "SELECT * FROM animal";
 $resultado = $conn->query($sql);
@@ -40,7 +40,7 @@ $conn->close();
     <title>Lista</title>
 </head>
 <body>
-<button type="button" class="btn-volta"><a href="index.php">Voltar</a></button>
+<button type="button" class="btn-volta"><a href="../index.php">Voltar</a></button>
 </body>
 </html>
 

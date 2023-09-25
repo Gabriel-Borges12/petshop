@@ -19,8 +19,8 @@
                 <input type="text" name="search-bar" id="search-bar">
                 <ul class="nav-list">
                     <li class="nav-link"><a href="./agendamento/consulta_agenda.php">Agendamentos</a></li>
-                    <li class="nav-link"><a href="./agendamento/consulta_animal.php">Animais</a></li>
-                    <li class="nav-link"><a href="./agendamento/consulta_cliente.php">Clientes</a></li>
+                    <li class="nav-link"><a href="./animal/consulta_animal.php">Animais</a></li>
+                    <li class="nav-link"><a href="./cliente/consulta_cliente.php">Clientes</a></li>
                 </ul>
             </div>
         </nav>
@@ -37,13 +37,13 @@
             <div class="asd-title">
                 <h2>Opções</h2>
             </div>
-                <div class="asd-wrap">
-                    <ul class="asd-list">
-                        <li class="nav-link"><a href="./agendamento/consulta_agenda.php">Agendamentos</a></li>
-                        <li class="nav-link"><a href="./agendamento/consulta_animal.php">Animais</a></li>
-                        <li class="nav-link"><a href="./agendamento/consulta_cliente.php">Clientes</a></li>
-                    </ul>
-                </div>
+            <div class="asd-wrap">
+                <ul class="asd-list">
+                    <li class="nav-link"><a href="./agendamento/consulta_agenda.php">Agendamentos</a></li>
+                    <li class="nav-link"><a href="./animal/consulta_animal.php">Animais</a></li>
+                    <li class="nav-link"><a href="./cliente/consulta_cliente.php">Clientes</a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <footer>
