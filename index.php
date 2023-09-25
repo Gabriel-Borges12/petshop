@@ -16,10 +16,11 @@
                 <span id="nav-title">Pet Tricolor</span>
             </div>
             <div class="nav-wrap">
+                <input type="text" name="search-bar" id="search-bar">
                 <ul class="nav-list">
-                    <li class="nav-link">Agendamentos</li>
-                    <li class="nav-link">Animais</li>
-                    <li class="nav-link">Clientes</li>
+                    <li class="nav-link"><a href="./agendamento/consulta_agenda.php">Agendamentos</a></li>
+                    <li class="nav-link"><a href="./agendamento/consulta_animal.php">Animais</a></li>
+                    <li class="nav-link"><a href="./agendamento/consulta_cliente.php">Clientes</a></li>
                 </ul>
             </div>
         </nav>
@@ -32,18 +33,18 @@
                 O lugar onde o seu pet é campeão. Avante Tricolor!
             </p>
         </section>
-        <aside>
+        <div class="aside">
             <div class="asd-title">
-                <h3>Opções</h3>
+                <h2>Opções</h2>
+            </div>
                 <div class="asd-wrap">
                     <ul class="asd-list">
-                        <li class="asd-link">Agendamentos</li>
-                        <li class="asd-link">Animais</li>
-                        <li class="asd-link">Clientes</li>
+                        <li class="nav-link"><a href="./agendamento/consulta_agenda.php">Agendamentos</a></li>
+                        <li class="nav-link"><a href="./agendamento/consulta_animal.php">Animais</a></li>
+                        <li class="nav-link"><a href="./agendamento/consulta_cliente.php">Clientes</a></li>
                     </ul>
                 </div>
-            </div>
-        </aside>
+        </div>
     </div>
     <footer>
         <img src="./img/logo_petshop.png" alt="Logo Petshop" id="foot-img">
