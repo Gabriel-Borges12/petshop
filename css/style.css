@@ -192,13 +192,16 @@ footer {
 }
 
 footer {
-    background-color: #B012CA;
-    padding: 20px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 22%, rgba(253,29,29,1) 71%, rgba(252,176,69,1) 100%);
+    padding: 0 !important;
+    margin: 0 !important;
     text-align: center;
     color: #fff;
     margin-top: auto;
-    padding: 10px;
     text-align: center;
+    /* height: 120px; */
+    position: relative;
 }
 
 

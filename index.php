@@ -54,33 +54,6 @@
                 <p>através do amor e carinho</p>
                 <p>envolvido em nós!</p>
             </div>
-            <div class="conteudo2">
-                <h4>Links Importantes</h4><br>
-                <ul class="linksfooter">
-                    <li><a class="linksimportantes" href="#">Funcionalidades</a></li>
-                    <li><a class="linksimportantes" href="#">Termos de uso</a></li>
-                    <li><a class="linksimportantes" href="#">Dúvidas</a></li>
-                    <li><a class="linksimportantes" href="#">Planos</a></li>
-                    <li><a class="linksimportantes" href="#">Blog</a></li>
-                </ul>
-
-            </div>
-            <div class="conteudo3">
-                <h4>Siga nossas redes sociais!</h4>
-                <div class="social-icons">
-                    <!-- ícones encontrados no site icons8.com.br -->
-                    <a href="https://www.facebook.com/?locale=pt_BR" class="social-icon"><img
-                            src="img/icons8-facebook-48.png" alt="Facebook"></a>
-                    <a href="https://twitter.com/login?lang=pt" class="social-icon"><img
-                            src="img/icons8-twitter-48 (1).png" alt="Twitter"></a>
-                    <a href="https://www.instagram.com/" class="social-icon"><img src="img/icons8-instagram-50 (1).png"
-                            alt="Instagram"></a>
-                    <br><br>
-                    <h5>Dúvidas ou sugestões?</h5>
-                    <a href="#" class="linkemail">contact@pettricolor</a><br>
-                </div>
-            </div>
-        </div>
         </div>
     </footer>
     <!-- <footer>
